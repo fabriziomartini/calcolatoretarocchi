@@ -32,3 +32,36 @@
             <p id="risposta3"></p>
         </div>
     </div>
+
+    <script>
+// Includi la libreria di Google Sheets API nel tuo HTML.
+<script src="https://apis.google.com/js/api.js"></script>
+
+// Funzione per ottenere le risposte dal foglio di calcolo.
+function calcolaRisposte() {
+    const dataInserita = document.getElementById("data").value;
+
+    // Autenticati con le credenziali API.
+    gapi.client.init({
+        apiKey: '3ff225d22596184c703c08f1bd6d9cbb94a0b4f9',
+        discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
+    }).then(function() {
+        // Effettua una richiesta al foglio di calcolo per ottenere le risposte in base alla data.
+        gapi.client.sheets.spreadsheets.values.get({
+            spreadsheetId: '18D-h7SCPJbVYcOWR_y0MPktgL7r94Fn2DrLVzFtfbKY',
+            range: 'A1:C10',  // Specifica il range in cui sono presenti i dati.
+        }).then(function(response) {
+            // Analizza la risposta e visualizza le risposte sulla pagina.
+            const values = response.result.values;
+            // Esegui ulteriori operazioni per ottenere le risposte in base alla data.
+
+            // Visualizza le risposte sulla pagina.
+            document.getElementById("risposta1").textContent = "Risposta 1: " + risposta1;
+            document.getElementById("risposta2").textContent = "Risposta 2: " + risposta2;
+            document.getElementById("risposta3").textContent = "Risposta 3: " + risposta3;
+        });
+    });
+}
+    </script>
+</body>
+</html>
