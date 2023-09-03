@@ -26,7 +26,7 @@
             // Effettua una richiesta al foglio di calcolo per ottenere le risposte in base alla data.
             gapi.client.sheets.spreadsheets.values.get({
                 spreadsheetId: '18D-h7SCPJbVYcOWR_y0MPktgL7r94Fn2DrLVzFtfbKY',
-                range: 'A2:C',  // Specifica il range in cui sono presenti i dati.
+                range: 'A2:D',  // Specifica il range in cui sono presenti i dati.
                 majorDimension: 'ROWS',
                 valueRenderOption: 'UNFORMATTED_VALUE'
             }).then(function (response) {
@@ -40,6 +40,7 @@
                     if (data[i][0] === dataInserita) {
                         risposta1 = data[i][1];
                         risposta2 = data[i][2];
+                        risposta3 = data[i][3];
                         break; // Esci dal ciclo una volta trovate le risposte.
                     }
                 }
@@ -48,6 +49,10 @@
                 document.getElementById("risposta1").textContent = "Risposta 1: " + risposta1;
                 document.getElementById("risposta2").textContent = "Risposta 2: " + risposta2;
                 document.getElementById("risposta3").textContent = "Risposta 3: " + risposta3;
+                
+                if (!risposta1 && !risposta2 && !risposta3) {
+                    alert("Nessuna corrispondenza trovata per la data inserita.");
+                }
             }).catch(function (error) {
                 console.error("Errore nella chiamata API:", error);
             });
