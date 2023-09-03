@@ -57,7 +57,11 @@
                 console.error("Errore nella chiamata API:", error);
             });
         }
-
+    // Funzione per formattare la data da yyyy-mm-dd a dd/mm/yyyy
+    function formattaData(data) {
+        const [anno, mese, giorno] = data.split('-');
+        return `${giorno}/${mese}/${anno}`;
+    }
         // Carica l'API Client quando il documento è pronto.
         document.addEventListener('DOMContentLoaded', handleClientLoad);
     </script>
