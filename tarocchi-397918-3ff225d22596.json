@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "tarocchi-397918",
+  "private_key_id": "3ff225d22596184c703c08f1bd6d9cbb94a0b4f9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC+RNB5HenXyq3A\nc6roZjKpmeiDiGNkzlseVA2Yy3hRhahpGM+EFv3freDlx5E3CJuiCVCxFuJAd4r8\nF0f04wafcd5kuqq3i3rgfH5BhzFidX2TGAsheSo/rmi4UjPxcf+AGc+k8p5+WwHa\n479sWhLUgWPZqHHPHfcGCl5qIQgic+ApZ8u7wNReUG2sWou2TM/AtbLJsWBcdniQ\na5BziK95m7j0rg/jpIKbhAsLI3E7QCIwrVdnH+Ai1/hlYzNYMhTdESZro9ga4cBW\nksE6lCR28TAn2ROsnJKYzI51pT/X/J66eVPFw6jy2+MwIHsiFguTEqNSEIbyP53B\nWGFrRE/9AgMBAAECggEAAYnZErBN0Koe9gr+uIgtBDHjpKlLaR2sXxt9tvzRhqfj\n7kzzo+/d/SXw3ILHgeWpVn8onnSe1I0dkVTB3EZ3/6g3d2KKrgHBdwO4BKEfzS9B\n2kOL7Ckd5kEWL9la+f/lOZIGhmD/gZThorVhOfJ6K6rhKw8hiR5xqHmYfQIH3g7E\nuy32b81/xiTDQ+ctqHe0DHteUdHD+xubXKhIlBpeStFiOSnFylszHu3cIryfrmSd\nQr6/HAt/8dmZJjNblIePiJMK8nmyKPX+2T9zFERhHuPU6OtDalT7Zz7pv1t+waD3\nb1Y9QovQwLrDrib4iWfoxoDxthwDov/9AsD6nKrJiQKBgQDmCtNwrZGG2jdKqODn\n/1eIbBSFqm42yMlLYkZorbUTisWMedKRV+VKUSsflhCLVVcmiTLdYX+HYmnnk1Qr\n6zB8atb1H1THn21Vvfxzwl1Ma8G0QspMAlhZztdd/WZRqImO3fLDMjTbcHBlNu7z\nS0THiyWvVngWNvZXxgnwRnQ/iQKBgQDTvQ/PjenxDh/xsrRtQXjVZEonb37XMJmB\nRap/EQOGv3LWbRdXB+g2qHrJHGGPsqPJMs655CjTcyd+dZ+KPOkWlufa0Lp80iz4\nWOqGc1zxHXIBl0a86RP//ue0yZxQZSBXagdNkfOLbKwb/FdSb6maydzTluwZH6EH\nyXjbrRgb1QKBgCzFgJ9WeJNJVyeFtLgSXyPi/R+Cqw6oh1zPlKp83FggUxBjCVNW\nSv7qyzzLhQ7JHjwWybqCZkKgKcJzTxd5H6enV4y/e02avrnITyDsfCIKetmtghfH\nAREBi7L0RXyxE4ylr8DDvbvTp1xbk6fwR0Oa1kvIxXh1W/57QaXs4GUZAoGAMaUU\nfe+iOFi9eKgT0cIWGMJo+JIVxVKpyzuQXDabAw8EV+5AGLHL6nTaRSkYXt7dtCDr\ng35RbDKFwgrGG11osVk0h4OFFhsZXClM47VMx2PGBUV42nYzsEQOA795nQf460X6\n7F8aIUibmfwyZSu1Mou98QZj2Qgnc3Hzml4dVvkCgYA0xEPRcBvvO7d/YcrLin/y\n/gZpqmyFdhkeqg0o3jxBQcyb4d/o+4pGQcOxpFXxD1rvc7hA8RDWdRy0Mz97Naxw\nUoNTKoJayyx4QwLKJFW9Go1RS6aGmaJfu1gJnidYnqWxq4zo3gMSAuBlb3ZMJYVO\nn0LW5zhBmfbAlonCRui6Nw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "calcolatore-tarocchi@tarocchi-397918.iam.gserviceaccount.com",
+  "client_id": "103498822825849314362",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/calcolatore-tarocchi%40tarocchi-397918.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
