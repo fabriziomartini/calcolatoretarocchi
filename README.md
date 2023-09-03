@@ -1,0 +1,2 @@
+# calcolatoretarocchi
+Tarocchi
